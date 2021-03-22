@@ -1,0 +1,82 @@
+
+body{
+ margin:0px;
+ padding:0px;
+ background: url(../img/slider6.jpg);
+ background-position:center center;
+ background-repeat:no-repeat;
+ background-size:cover;
+ height: 110vh;
+ width:100%;
+}
+
+
+.my-navbar{
+background-color: #0652dd;
+}
+
+.nav-item .nav-link{
+    color:white;
+    font-size:13px;
+    font-family:arial;
+    letter-spacing: 2px;
+    margin: 0px 10px;
+    text-transform: uppercase;
+}
+.mega-menu{
+    background-color: transparent;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+
+.dropdown-menu{
+    border:none;
+}
+
+.dropdown-item{
+    padding: 12px 40px 12px 20px;
+    font-size: 15px;
+    font-family:arial;
+    color:black;
+    font-weight: lighter;
+    background-color: white;
+    transform-origin: center;
+    animation :rotate 1.5s ease 1;
+}
+@keyframes rotate{
+    0%{transform: perspective(600px) rotatey(90deg); transform-origin:center;}
+    100%{transform: perspective(600px) rotatey(0deg); transform-origin:center;}
+}
+
+.dropdown-item:nth-of-type(1){
+    animation-delay: 0s;
+}
+.dropdown-item:nth-of-type(2){
+    animation-delay: 0.1s;
+}
+.dropdown-item:nth-of-type(3){
+    animation-delay: 0.2s;
+}
+.dropdown-item:nth-of-type(4){
+    animation-delay: 0.3s;
+}
+.dropdown-item:nth-of-type(5){
+    animation-delay: 0.4s;
+}
+.dropdown-item:nth-of-type(6){
+    animation-delay: 0.5s;
+}
+
+.dropdown-item:hover{
+    background-color: #0652dd;
+    color:white;
+}
+
+.navbar-brand{
+    text-transform:uppercase;
+    font-family:impact;
+    font-size: 20px;
+    color:white;
+    letter-spacing: 2px;
+}
